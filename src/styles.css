@@ -1,0 +1,82 @@
+body {
+  background-color: #f4eeb5;
+  margin: 60px;
+}
+
+form {
+  border-bottom: 1px solid #efe697;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: #cac9cc;
+}
+
+div strong {
+  color: #ffb85c;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #cac9cc;
+  margin: 40px 0 0;
+}
+
+.input {
+  background-color: #f7f1c8;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+}
+
+.button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #ffb85c;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-weather {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.temp .degree {
+  font-size: 30px;
+}
+
+.content {
+  position: relative;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+}
